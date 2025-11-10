@@ -1,0 +1,32 @@
+# --- IC-MARL specific parameters ---
+
+action_selector: "soft_policies"
+mask_before_softmax: True
+
+runner: "episode"
+mac: "ic_mac"
+buffer_size: 10000
+common_reward: True
+
+obs_agent_id: False
+obs_last_action: False
+obs_individual_obs: False
+
+agent: "transformer"
+agent_output_type: "pi_logits"
+learner: "ic_learner"
+
+ind_weight: 0
+weight: 0
+n_embd: 64
+n_layer: 8
+n_head: 8
+dropout: 0.1
+lr: 0.0005
+train_mode: 0
+train_CEM: True
+use_rtg: False
+t_max: 4050000
+
+name: "IC-MARL"
+offline: True

@@ -1,0 +1,5 @@
+*.pyc
+results/
+*.pdf
+*.th
+*.pkl

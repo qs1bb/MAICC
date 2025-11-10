@@ -1,0 +1,22 @@
+env: "gymma"
+
+env_args:
+  key: null
+  time_limit: 100
+  pretrained_wrapper: null
+
+test_greedy: True
+test_nepisode: 200
+test_interval: 50000
+log_interval: 50000
+runner_log_interval: 10000
+learner_log_interval: 10000
+
+k: 3
+l: 50
+max_return: 2
+min_return: 0
+task_nums: 9
+trajs_per_task: 1000
+batch_size: 32
+max_similarity: 0.9

@@ -1,0 +1,21 @@
+env: "sc2v2"
+
+env_args:
+  map_name: null
+  time_limit: 100
+
+test_greedy: True
+test_nepisode: 100
+test_interval: 50000
+log_interval: 50000
+runner_log_interval: 10000
+learner_log_interval: 10000
+
+k: 2
+l: 50
+max_return: 20
+min_return: 0
+task_nums: 9
+trajs_per_task: 1000
+batch_size: 32
+max_similarity: 0.98
